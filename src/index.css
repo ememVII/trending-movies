@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
+
+:root {
+--bgColor:#131722;
+--lightBgColor:#24baef;
+--bgTransparent:rgba(36,186,239,.6);
+--fontColor:#fff;
+--borderColor:#a8a8a83d;
+--borderHeight:1px;
+--secondFontColor:#949cb0;
+--cherryColor: #dc3545;
+}
+
+body {
+  font-family: 'Montserrat Alternates', sans-serif;
+  background-color: var(--bgColor);
+  color: var(--fontColor);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: var(--fontColor);
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+a:hover {
+  color: var(--lightBgColor);
+  /* color: var(--cherryColor); */
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Register & Login */
+.accountExistence {
+  font-size: 14px;
+}
+
+.accountExistence a {
+  font-weight: bold;
+  transition: 0.4s ease;
+  color: var(--lightBgColor);
+}
+
+.accountExistence a:hover {
+  color: var(--cherryColor);
+}
+
+.page-link {
+  /* background-color: transparent; */
+  font-weight: bold;
+  background-color: var(--bgColor);
+  color: #fff;
+  transition: 0.3s ease;
+  font-size: 14px;
+}
+
+.page-link:hover {
+  background-color: var(--bgTransparent);
+  color: #fff;
+}

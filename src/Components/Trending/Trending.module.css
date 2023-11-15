@@ -1,0 +1,28 @@
+.mediaHeader {
+    position: relative;
+    padding: 1rem;
+    margin-top: 3rem !important;
+}
+
+.mediaHeader::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 25%;
+    height: 0.5px;
+    background-color: var(--borderColor);
+}
+
+.mediaHeader::after {
+    content: '';
+    position: absolute;
+    width: 90%;
+    height: 0.5px;
+    background-color: var(--borderColor);
+}
+
+@media (max-width: 767px) {
+    .mediaHeader {
+        margin-top: 0 !important;
+    }
+}

@@ -1,0 +1,22 @@
+.details img {
+    height: 95%;
+    border-radius: 5px;
+}
+
+.genre {
+    padding: 7px;
+    /* background-color: var(--lightBgColor); */
+    border: 1px solid #fff;
+    margin-right: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.1s ease;
+}
+
+.genre:hover {
+    background-color: var(--lightBgColor);
+    border: 1px solid var(--lightBgColor);
+    color: #fff;
+}

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500&display=swap');
+
+.input-field, .input-label {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    letter-spacing: 0.25px;
+}
+
+.input-field:focus {
+    outline: none;
+    box-shadow: none !important;
+}
+
+.form-control.is-invalid, .was-validated .form-control:invalid, .form-control.is-valid, .was-validated .form-control:valid {
+    border-width: 1.75px !important;
+}
+
+.errorMessage {
+    font-family: 'Nunito', sans-serif;
+    color: red;
+}
+
+.checkBox {
+    margin-top: 0.4rem;
+}

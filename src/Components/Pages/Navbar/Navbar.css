@@ -1,0 +1,16 @@
+.socialLinks i {
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s ease;
+    background-color: none;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+.fa-facebook:hover {color:#57aef5;}.fa-youtube:hover {color:#ff0000;}.fa-spotify:hover {color:#1db954;}.fa-instagram:hover {color:#f56040;}

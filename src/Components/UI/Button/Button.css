@@ -1,0 +1,28 @@
+.btn_register , .btn_reset {
+    padding: 8px 12px;
+    border-radius: 6px;
+    background-color: transparent;
+    transition: 0.2s ease;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.btn_register {
+    color: var(--lightBgColor);
+    border: 1px solid var(--lightBgColor);
+}
+
+.btn_register:hover {
+    background-color: var(--lightBgColor);
+    color: var(--bgColor);
+}
+
+.btn_reset {
+    border: 1px solid var(--cherryColor);
+    color: var(--cherryColor);
+}
+
+.btn_reset:hover {
+    background-color: var(--cherryColor);
+    color: var(--fontColor);
+}

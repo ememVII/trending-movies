@@ -1,0 +1,12 @@
+.poster {
+    border-radius: 2px;
+}
+
+.rating {
+    font-family: 'Nunito', sans-serif;
+    right: 0;
+    background-color: var(--cherryColor);
+    background-color: rgba(36, 186, 239, 0.9);
+    padding: 1px 6px;
+    border-radius: 3px 0 0 3px;
+}
